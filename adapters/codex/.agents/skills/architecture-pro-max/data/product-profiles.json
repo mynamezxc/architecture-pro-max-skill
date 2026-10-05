@@ -1,0 +1,102 @@
+{
+  "crm": {
+    "domain_complexity": "high",
+    "data": "relational",
+    "audit": true,
+    "realtime": "medium",
+    "modules": [
+      "identity",
+      "customers",
+      "sales",
+      "activity",
+      "workflow",
+      "reporting",
+      "admin"
+    ]
+  },
+  "cms": {
+    "domain_complexity": "medium",
+    "data": "relational+blob",
+    "audit": true,
+    "realtime": "low",
+    "modules": [
+      "identity",
+      "content",
+      "media",
+      "workflow",
+      "publishing",
+      "search",
+      "admin"
+    ]
+  },
+  "erp": {
+    "domain_complexity": "high",
+    "data": "relational",
+    "audit": true,
+    "realtime": "medium",
+    "modules": [
+      "identity",
+      "master-data",
+      "sales",
+      "purchasing",
+      "inventory",
+      "finance",
+      "workflow",
+      "reporting"
+    ]
+  },
+  "marketplace": {
+    "domain_complexity": "high",
+    "data": "relational+search",
+    "audit": true,
+    "realtime": "medium",
+    "modules": [
+      "identity",
+      "catalog",
+      "seller",
+      "order",
+      "payment",
+      "fulfillment",
+      "review",
+      "search"
+    ]
+  },
+  "saas": {
+    "domain_complexity": "medium",
+    "data": "relational",
+    "audit": true,
+    "realtime": "medium",
+    "modules": [
+      "identity",
+      "tenant",
+      "billing",
+      "core-product",
+      "notification",
+      "admin"
+    ]
+  },
+  "internal-tool": {
+    "domain_complexity": "low",
+    "data": "relational",
+    "audit": false,
+    "realtime": "low",
+    "modules": [
+      "identity",
+      "core",
+      "reporting"
+    ]
+  },
+  "developer-tool": {
+    "domain_complexity": "medium",
+    "data": "mixed",
+    "audit": false,
+    "realtime": "medium",
+    "modules": [
+      "workspace",
+      "execution",
+      "integration",
+      "extension",
+      "telemetry"
+    ]
+  }
+}

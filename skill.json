@@ -1,0 +1,19 @@
+{
+  "name": "architecture-pro-max",
+  "displayName": "Architecture Pro Max",
+  "description": "Architecture reasoning skill for product analysis, multi-platform system design, testing, data, integration, documentation and AI-maintainable project structure.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "platforms": [
+    "claude",
+    "cursor",
+    "windsurf",
+    "antigravity",
+    "copilot",
+    "kiro",
+    "codex",
+    "qoder"
+  ],
+  "canonicalSkill": "skills/architecture-pro-max/SKILL.md",
+  "install": "python tools/install.py --platform {{platform}} --target /path/to/project"
+}

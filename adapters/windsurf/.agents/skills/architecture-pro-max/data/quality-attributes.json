@@ -1,0 +1,11 @@
+{
+  "maintainability": "Ease of understanding, changing and testing capabilities without ripple effects.",
+  "extensibility": "Ability to add capabilities/providers/platforms without destabilizing core behavior.",
+  "testability": "Ability to verify business rules, contracts and adapters deterministically.",
+  "operability": "Ease of deployment, monitoring, debugging, rollback and support.",
+  "performance": "Latency, throughput and resource efficiency under expected workloads.",
+  "availability": "Ability to remain useful during component or dependency failures.",
+  "security": "Confidentiality, integrity, least privilege, isolation and auditability.",
+  "portability": "Ability to support required platforms without forced lowest-common-denominator design.",
+  "reversibility": "Cost of changing a decision later."
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "architecture-pro-max",
+  "version": "0.1.0",
+  "description": "Deep architecture reasoning for maintainable web, mobile, desktop and backend systems, with decision matrices, self-critique, project docs and test contracts."
+}

@@ -1,0 +1,54 @@
+{
+  "web-mobile-desktop": [
+    {
+      "id": "ts-react-family",
+      "when": "TypeScript/React team; web is primary; native needs moderate",
+      "web": "React/Next",
+      "mobile": "React Native",
+      "desktop": "Tauri or Electron",
+      "share": [
+        "contracts",
+        "api-client",
+        "pure domain",
+        "validation",
+        "tokens"
+      ]
+    },
+    {
+      "id": "web-plus-flutter",
+      "when": "mobile+desktop sharing matters; Flutter skills available",
+      "web": "web-native framework",
+      "mobile": "Flutter",
+      "desktop": "Flutter",
+      "share": [
+        "contracts",
+        "schemas",
+        "tokens",
+        "fixtures"
+      ]
+    },
+    {
+      "id": "pwa-first",
+      "when": "desktop/native requirements are weak",
+      "web": "PWA",
+      "mobile": "PWA or thin wrapper",
+      "desktop": "browser/PWA",
+      "share": [
+        "entire web application"
+      ]
+    },
+    {
+      "id": "native-clients",
+      "when": "deep OS integration/performance/accessibility dominates",
+      "web": "web-native",
+      "mobile": "Swift/Kotlin",
+      "desktop": "native platform",
+      "share": [
+        "contracts",
+        "schemas",
+        "fixtures",
+        "tokens"
+      ]
+    }
+  ]
+}

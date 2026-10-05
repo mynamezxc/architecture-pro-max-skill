@@ -1,0 +1,140 @@
+[
+  {
+    "id": "layered-monolith",
+    "name": "Layered Monolith",
+    "complexity": 1,
+    "ops": 1,
+    "domain": 2,
+    "deploy": 1,
+    "scale": 2,
+    "offline": 2,
+    "best_for": [
+      "crud",
+      "prototype",
+      "small-team"
+    ]
+  },
+  {
+    "id": "feature-monolith",
+    "name": "Feature-based Monolith",
+    "complexity": 1,
+    "ops": 1,
+    "domain": 3,
+    "deploy": 1,
+    "scale": 2,
+    "offline": 2,
+    "best_for": [
+      "product-app",
+      "small-team",
+      "medium-domain"
+    ]
+  },
+  {
+    "id": "modular-monolith",
+    "name": "Modular Monolith",
+    "complexity": 2,
+    "ops": 1,
+    "domain": 5,
+    "deploy": 2,
+    "scale": 3,
+    "offline": 3,
+    "best_for": [
+      "crm",
+      "cms",
+      "erp",
+      "saas",
+      "long-lived"
+    ]
+  },
+  {
+    "id": "hexagonal-modular-monolith",
+    "name": "Modular Monolith + Hexagonal Boundaries",
+    "complexity": 3,
+    "ops": 1,
+    "domain": 5,
+    "deploy": 2,
+    "scale": 3,
+    "offline": 4,
+    "best_for": [
+      "complex-domain",
+      "integrations",
+      "testability",
+      "long-lived"
+    ]
+  },
+  {
+    "id": "vertical-slice",
+    "name": "Vertical Slice Architecture",
+    "complexity": 2,
+    "ops": 1,
+    "domain": 4,
+    "deploy": 2,
+    "scale": 3,
+    "offline": 2,
+    "best_for": [
+      "api",
+      "use-case-driven",
+      "feature-teams"
+    ]
+  },
+  {
+    "id": "microservices",
+    "name": "Microservices",
+    "complexity": 5,
+    "ops": 5,
+    "domain": 4,
+    "deploy": 5,
+    "scale": 5,
+    "offline": 3,
+    "best_for": [
+      "large-team",
+      "independent-deploy",
+      "independent-scale"
+    ]
+  },
+  {
+    "id": "serverless",
+    "name": "Serverless / Functions",
+    "complexity": 3,
+    "ops": 2,
+    "domain": 2,
+    "deploy": 4,
+    "scale": 5,
+    "offline": 2,
+    "best_for": [
+      "bursty",
+      "event-processing",
+      "narrow-functions"
+    ]
+  },
+  {
+    "id": "microkernel",
+    "name": "Microkernel / Plugin",
+    "complexity": 3,
+    "ops": 2,
+    "domain": 4,
+    "deploy": 3,
+    "scale": 3,
+    "offline": 3,
+    "best_for": [
+      "extensible-product",
+      "plugins",
+      "desktop-tool"
+    ]
+  },
+  {
+    "id": "local-first",
+    "name": "Local-first + Sync Backend",
+    "complexity": 5,
+    "ops": 3,
+    "domain": 4,
+    "deploy": 2,
+    "scale": 3,
+    "offline": 5,
+    "best_for": [
+      "offline-critical",
+      "collaboration",
+      "device-autonomy"
+    ]
+  }
+]

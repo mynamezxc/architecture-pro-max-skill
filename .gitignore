@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.adapter-check/
+.DS_Store
+.vscode/
+.idea/
